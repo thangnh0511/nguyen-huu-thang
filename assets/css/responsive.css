@@ -21,7 +21,6 @@
 
 /* Điện thoại chiều ngang */
 @media  screen and (min-width:480px) {
-    
 }
 
 /* Tablet - chiều dọc */
@@ -29,7 +28,9 @@
     .col-30p-desktop {width: 30%; }
     .col-70p-desktop {width: 70%;}
     .col-100p-desktop {width: 100%;}
-    .col-100p-desktop img {width: 50px; display: inline-block;}    
+    .col-100p-desktop img {width: 50px; display: inline-block;} 
+    
+    #logo {left: 10%;}
 
     #nav-mobile-button img {}
     .nav-mobile {width: 50%;}
@@ -42,7 +43,7 @@
     .box-2 {display: none;}
 
     .right {width: 60%; float: left; padding: 10% 0% 10% 5%;}
-    #hello-h1-1, #hello-h1-2 {font-size: 47px;}
+    #hello-h1-1, #hello-h1-2 {font-size: 30px;}
     .des {width: 100%; float: left;}
     section {box-sizing: border-box; padding: 20px;}
     .mobile {display: none;}
@@ -67,26 +68,31 @@
 
 /* Tablet to - dọc */
 @media  screen and (min-width:769px) {
+    .text-block {margin-top: 40px; padding-right: 40px;}
     #nav-mobile-button {display: none;}
     #resume-btn {display: block;}
-    .box-2{display: block;top: 50%;z-index: 1;}
-    
+    .box-2{display: none;top: 50%;z-index: 1;}
+    #hello-h1-1, #hello-h1-2 {font-size: 40px;}    
 }
 
 /* Tablet to - ngang */
 @media  screen and (min-width:1024px) and (min-height:1366px) {
     nav ul {margin-left: 23%;}
     .box-2{display: block;top: 50%;z-index: 1;}
+    #hello-h1-1, #hello-h1-2 {font-size: 40px;}
 }
 
 /* Desktop */
 @media  screen and (min-width:1025px) {
-    .box-2{display: block;top: 50%;z-index: 1;}
+    
+    #logo {left:13.5%}
+
     .left {width: 50%; position: relative; box-sizing: border-box;}
     #img-back-ndisp{width: 60%; visibility: hidden; margin-bottom: 20px;}
     #img-back {width: 60%; position: absolute; left: 10%; animation-duration: 1s; animation-name: img-back-des;}
     #img-front {width: 65%; position: absolute; right: 24%;animation-duration: 1s; animation-name: img-front-des;}
-    .box-2{display: block;top: 70%;}
+    /* .box-2{display: block;top: 50%;z-index: 1;} */
+    /* .box-2{display: block;top: 70%;} */
     @keyframes img-back-des {
         0%{left: 30%;}
         100% {left: 10%;}
@@ -97,7 +103,7 @@
       }
 
     .right {width: 50%;}
-    #hello-h1-1 {font-size: 35px; margin: 0px; padding-left: 15%;}
-    #hello-h1-2 {font-size: 35px; margin: 10px 0px 20px 0px;padding-left: 15%; padding-bottom: 30px;}
+    #hello-h1-1 {font-size: 40px; margin: 0px; padding-left: 15%;}
+    #hello-h1-2 {font-size: 40px; margin: 10px 0px 20px 0px;padding-left: 15%; padding-bottom: 30px;}
     .text-block {font-size: 20px; text-align: left;margin-bottom: 10px;padding-left: 15%;}
 }

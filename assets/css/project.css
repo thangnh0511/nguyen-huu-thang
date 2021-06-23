@@ -29,6 +29,8 @@
 
 .timeline h1, p{margin: 0; margin-bottom: 20px;}
 
+.timeline h1 {font-size: 25px; letter-spacing: 1px;}
+
 .thoi-gian {
     margin-bottom: 30px;
 }
