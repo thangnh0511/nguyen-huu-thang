@@ -4,6 +4,7 @@
 .color-4 {color:#5bc0be;}
 .color-5 {color:#6fffe9;}
 
+.project h3 {font-weight: normal;}
 
 
 /* --------Mobile-section------ */
@@ -12,7 +13,7 @@
 
 .time-flow {width: 70px; height: 30px ;position: relative; left: -80px; background-color: #6fffe9;border-radius: 15px;}
 /* .time-flow::before {content: "";background-color: #5bc0be; width: 70px; height: 40px; } */
-.time-flow h3 {margin: 0; text-align: center; color: #1c2541; line-height: 30px; font-size: 12px;  }
+.time-flow h3 {margin: 0; text-align: center; color: #0b132b; line-height: 30px; font-size: 12px;  }
 .time-flow:hover {cursor: pointer; background-color:#5bc0be; -ms-transform: scale(1.2,1.2);-webkit-transform: scale(1.2,1.2);transform: scale(1.2,1.2); ;}
 
 
@@ -34,3 +35,10 @@
 .thoi-gian {
     margin-bottom: 30px;
 }
+
+.project-text {text-align:left;text-transform: uppercase; letter-spacing: 2px;}
+
+.project-describe:hover {color: #6fffe9;}
+.project-describe h2{text-align: left;}
+.project-describe h3{text-align: left; }
+.project-describe ul{text-align: left; font-size: 20px}

@@ -16,8 +16,15 @@
     .col-30p-mobile{width: 30%;}
     .col-70p-mobile {width: 70%;}
     .col-100p-mobile {width: 100%;}
-    .col-100p-mobile img {width: 50px; display: inline-block;}    
-}
+    .col-100p-mobile img {width: 50px; display: inline-block;}   
+
+    .grid {width: 100%; min-height: 100%; background-color: #1c2541; float: left; box-sizing: border-box; position: relative;}
+    .grid-content {width:40%; min-height: 1% ;position: absolute; text-align: center; color: black; top: 20%; left: 30%; background-color:#3a506b; display: none;}
+    /* .media-block:hover img{opacity: .5;}
+    .media-block:hover .grid-content{display: block; color: white;} */
+    .project-icon {display: block;}
+    .project-company {display: none;} 
+
 
 /* Điện thoại chiều ngang */
 @media  screen and (min-width:480px) {
@@ -25,10 +32,6 @@
 
 /* Tablet - chiều dọc */
 @media  screen and (min-width:601px) {
-    .col-30p-desktop {width: 30%; }
-    .col-70p-desktop {width: 70%;}
-    .col-100p-desktop {width: 100%;}
-    .col-100p-desktop img {width: 50px; display: inline-block;} 
     
     #logo {left: 10%;}
 
@@ -52,27 +55,51 @@
 
     /* ----Project-part---- */
     .text {padding: 50px 15% 0% 15%;}
-    .text h1{font-size: 50px;}
+    .text h1{font-size: 30px; letter-spacing: 3px; text-align: center;}
     .timeline {width: 70%;}
+
+    /* ---- Index ---- */
+    .grid {width: 100%; min-height: 100%; background-color: #1c2541; float: left; box-sizing: border-box; position: relative;}
+    .grid-content {width:40%; min-height: 1% ;position: absolute; text-align: center; color: black; top: 20%; left: 30%; background-color:#3a506b; display: none;}
+    
 }
 
 /* Tablet - chiều ngang */
 @media  screen and (min-width:800px) {
+
     
     #nav-mobile-button img {}
     .nav-mobile {width: 40%;}
     .mobile-close img {}
     #logo{left: 8%;}
     nav {display: block;}
+    
+    .grid-s {width: 33.3%; min-height: 200px; background-color: #1c2541; float: left; box-sizing: border-box;}
+    .grid-content {width:40%; min-height: 1% ;text-align: center; color: black; top: 20%; left: 30%; background-color:#3a506b; display: none;}
 }
 
 /* Tablet to - dọc */
 @media  screen and (min-width:769px) {
+    .col-30p-desktop {width: 30%; }
+    .col-70p-desktop {width: 70%;}
+    .col-100p-desktop {width: 100%;}
+
+
+    .col-30p-desktop img {width: 50px; margin-top: 20px;} 
+    
+    .contact h4{text-align: left;}
+
     .text-block {margin-top: 40px; padding-right: 40px;}
     #nav-mobile-button {display: none;}
     #resume-btn {display: block;}
     .box-2{display: none;top: 50%;z-index: 1;}
     #hello-h1-1, #hello-h1-2 {font-size: 40px;}    
+
+    .project-icon {display: none;}
+    .project-company {display: block;}
+
+
+    .tablet {display: block;}
 }
 
 /* Tablet to - ngang */
