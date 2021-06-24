@@ -20,12 +20,17 @@
 
     .grid {width: 100%; min-height: 100%; background-color: #1c2541; float: left; box-sizing: border-box; position: relative;}
     .grid-content {width:40%; min-height: 1% ;position: absolute; text-align: center; color: black; top: 20%; left: 30%; background-color:#3a506b; display: none;}
+    .grid img{object-fit:cover; width: 100%; height: 100%;}
+
+    
     /* .media-block:hover img{opacity: .5;}
     .media-block:hover .grid-content{display: block; color: white;} */
     .project-icon {display: block;}
     .project-company {display: none;} 
+    .text h2 {font-size: 30px; text-align: center;}
 
-
+    .media-file-s {width: 100%; text-align: center; display: inline-block; margin-top: 20px; box-sizing: border-box;}
+    .media-file-s iframe {width: 100%; }
 /* Điện thoại chiều ngang */
 @media  screen and (min-width:480px) {
 }
@@ -74,8 +79,9 @@
     #logo{left: 8%;}
     nav {display: block;}
     
-    .grid-s {width: 33.3%; min-height: 200px; background-color: #1c2541; float: left; box-sizing: border-box;}
-    .grid-content {width:40%; min-height: 1% ;text-align: center; color: black; top: 20%; left: 30%; background-color:#3a506b; display: none;}
+    .grid-s {width: 33.3%; height: 400px; background-color: #1c2541; float: left; box-sizing: border-box;}
+    .grid-s img{object-fit:cover; width: 100%; height: 100%; position: relative;}
+    .grid-s:hover img{opacity: .6;}
 }
 
 /* Tablet to - dọc */
@@ -98,8 +104,12 @@
     .project-icon {display: none;}
     .project-company {display: block;}
 
+    .text h2 {font-size: 40px; letter-spacing: 3px; text-align: center; font-style: italic;}
 
     .tablet {display: block;}
+
+    .media-file {width: 100%; height: 400px; text-align: center; display: inline-block; margin-top: 20px;}
+    .media-file iframe {width: 1000px; height: 500px;}
 }
 
 /* Tablet to - ngang */
