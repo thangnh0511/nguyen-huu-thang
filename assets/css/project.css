@@ -38,7 +38,11 @@
 
 .project-text {text-align:left;text-transform: uppercase; letter-spacing: 2px;}
 
+
+.project-describe {color: white;}
+
 .project-describe:hover {color: #6fffe9;}
-.project-describe h2{text-align: left;}
-.project-describe h3{text-align: left; }
-.project-describe ul{text-align: left; font-size: 20px}
+.project-describe h2{text-align: left; font-size: 18px;}
+.project-describe h3{text-align: left; font-size: 20px;}
+.project-describe:hover ul li {color: #6fffe9;}
+.project-describe ul li{text-align: left; font-size: 20px; color: white;}
