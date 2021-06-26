@@ -93,7 +93,7 @@ a.button.five:after{
 	height: 100%;
 	border-bottom: 2px solid #6fffe9;
 	
-	transition: width 0.3s ease;
+	transition: width 0.3s ;
 }
 
 a.button.five:hover:after{
@@ -129,10 +129,11 @@ a.button.six:hover:after{
 
 /* -----CONTAINER------ */
 
-#container {width: 100%; min-height:100px;}
+#container {width: 100%; min-height:100px; }
+
 
 section {width: 100%; min-height: 100px; margin:0px 0px; z-index: inherit; box-sizing: border-box; color: #5bc0be;}
-.text {padding: 20px 0px; text-align: justify;}
+.text {padding: 20px 0px; text-align: center;}
 .text h1 {font-size: 25px; letter-spacing: 3px; margin-bottom: 10px; margin-top: 0px; color: #6fffe9; text-transform: uppercase;}
 
 .media-block {width: 100%; box-sizing: border-box;}
