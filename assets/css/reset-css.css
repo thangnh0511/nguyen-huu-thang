@@ -10,6 +10,15 @@ html,body,div,ul,ol,li,a,img,span,p,b,input,label {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+::selection {
+	background: #6fffe9; color: #0b132b;
+	}
+	::-webkit-selection {
+	background: #6fffe9; color: #0b132b;
+	}
+	::-moz-selection {
+	background: #6fffe9; color: #0b132b;
+	}
 ul,ol {
 	list-style:none;
 }

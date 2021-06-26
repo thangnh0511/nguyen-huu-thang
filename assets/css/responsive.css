@@ -55,6 +55,9 @@
     .project-describe h3{text-align: left;}
     .project-describe:hover ul li {color: #6fffe9;}
     .project-describe ul li{text-align: left; font-size: 18px; color: white; padding-bottom: 10px;}
+
+        /* status  */
+        .status {width: 40%; height: 30px; border-radius: 10px; line-height: 30px; text-align: center;}
 }
 /* Điện thoại chiều ngang */
 @media  screen and (min-width:480px) {
@@ -102,7 +105,8 @@
 
     .text {margin-top: 50px; padding: 20px 0px; text-align: center;}
     
-    
+    /* Status bar */
+    .status {width: 15%; height: 30px; border-radius: 10px; line-height: 30px; text-align: center;}
 }
 
 /* Tablet - chiều ngang */
@@ -125,9 +129,15 @@
 
 /* Tablet to - dọc */
 @media  screen and (min-width:769px) {
-    .col-30p-desktop {width: 30%; }
+    .col-10p-desktop {width: 10%;}
+    .col-20p-desktop {width: 20%;}
+    .col-30p-desktop {width: 30%;}
+    .col-40p-desktop {width: 40%;}
+    .col-50p-desktop {width: 50%;}
+    .col-60p-desktop {width: 60%;}
     .col-70p-desktop {width: 70%;}
-    .col-50p-desktop {width: 50px;}
+    .col-80p-desktop {width: 80%;}
+    .col-50p-desktop {width: 50%;}
     .col-100p-desktop {width: 100%;}
 
     .col-70p-desktop {border-left: 2px solid white; padding-left: 20px;}
@@ -176,6 +186,9 @@
 
     /* ----------CONTENT AREA ----------- */
     .content-area {width: 90%;margin: auto;}
+
+    /* Status bar */
+   
     
 }
 
