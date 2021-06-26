@@ -57,16 +57,18 @@
     .project-describe ul li{text-align: left; font-size: 18px; color: white; padding-bottom: 10px;}
 
         /* status  */
-        .status {width: 40%; height: 30px; border-radius: 10px; line-height: 30px; text-align: center;}
+    .status.complete::after, .status.doing::after, .status.suspended::after {width: 25%; }
 }
 /* Điện thoại chiều ngang */
 @media  screen and (min-width:480px) {
     .mobile {display: block;}
+    .status.complete::after, .status.doing::after, .status.suspended::after {width: 20%; }
 }
 
 @media screen and (min-width: 601px) and (max-width: 766px) {
     #img-front {top: 60px;right: -50px;width: 120%; animation-name: none ;}
     #img-back {top: 60px;right: -90px;width: 105%; animation: none;}
+    .status.complete::after, .status.doing::after, .status.suspended::after {width: 15%; }
 }
 
 /* Tablet - chiều dọc */
@@ -106,7 +108,7 @@
     .text {margin-top: 50px; padding: 20px 0px; text-align: center;}
     
     /* Status bar */
-    .status {width: 15%; height: 30px; border-radius: 10px; line-height: 30px; text-align: center;}
+    .status.complete::after, .status.doing::after, .status.suspended::after {width: 15%; }
 }
 
 /* Tablet - chiều ngang */
@@ -124,6 +126,7 @@
     .grid-s:hover img{opacity: .6;}
 
     .mobile {display: none;}
+    .status.complete::after, .status.doing::after, .status.suspended::after {width: 10%; }
 }
 
 
@@ -188,7 +191,7 @@
     .content-area {width: 90%;margin: auto;}
 
     /* Status bar */
-   
+    .status.complete::after, .status.doing::after, .status.suspended::after {width: 8%; }
     
 }
 
