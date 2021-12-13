@@ -1,0 +1,192 @@
+/* ---- RESET CSS ---- */
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: saigonese;
+    src: url(../fonts/Saigonese.otf);
+}
+
+* {box-sizing: border-box;}
+h4 {margin: 0;}
+html,body,div,ul,ol,li,a,img,span,p,b,input,label {
+	margin:0;
+	padding:0;
+	border:0;
+    scroll-behavior:smooth;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+::selection {
+	background: #6fffe9; color: #0b132b;
+	}
+	::-webkit-selection {
+	background: #6fffe9; color: #0b132b;
+	}
+	::-moz-selection {
+	background: #6fffe9; color: #0b132b;
+	}
+ul,ol {
+	list-style:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+
+}
+
+table {
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+/* ------ Blue theme --------- */
+
+.blue-theme-background {
+    background: linear-gradient(162deg, rgba(3,20,128,1) 0%, rgba(3,52,173,1) 35%, rgba(3,163,255,1) 100%);
+}
+.blue-theme-color {
+    color: #0334AD;
+}
+
+
+/* ------ Red Theme */
+
+
+/* ---- HEADER ---- */
+
+body {
+    background: rgba(224, 234, 239, .5);
+    height: 100vh;
+    z-index: -1;
+}
+
+body > header {
+    border-radius: 0px 0px 40px 40px;
+    width: 100%;
+    min-height: 30%;
+    /* background: #F04B4C; */
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, .4) ;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-family: saigonese;
+    font-size: 8px;
+    letter-spacing: 8px;
+}
+
+header > h1 {
+    margin-top: 20;
+}
+
+
+/* ---- INFO ---- */
+.info {
+    margin: 10px 20px;
+    display: flex;
+    position: relative;
+    top: -100px;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+    border-radius: 20px;
+    padding: 12px;
+}
+.info i {
+    font-size: 24px;
+}
+
+.info::after {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+    border-radius: 20px;
+}
+
+.info__avatar {
+    margin: 0px 0px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -60px;
+    border-radius: 100%;
+    align-self: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+    z-index: 1;
+    object-fit: cover;
+    border: 6px solid rgba(63,94,251,.7);
+}
+.info__identify {
+    margin-top: -50px ;
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 150px;
+    position: relative;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+.info__identify > i {
+    font-size: 24px;
+}
+
+
+.idfy__1 { margin: auto;}
+.idfy__2, .idfy__3, .idfy__4 {
+    margin-bottom: 8px;
+}
+.idfy__2 >div, .idfy__3 >div, .idfy__4 >div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 4px;
+}
+
+
+
+/* ----- CONTENT BLOCK ---- */
+
+#content {
+    margin: -60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.content__section {
+    margin: 10px 0px;
+    background: #E0EAEF;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    box-shadow: -6px -6px 15px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.content__section::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+    border-radius: 20px;
+}
